@@ -1,0 +1,194 @@
+/* fruit header background entire page */
+header {
+  height: 120px;
+  background-image: url(../images/increasefruitconsumption_header.jpg);
+  background-size: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+}
+/* company name centered */
+h1 {
+  background-color: green;
+  text-shadow: 3px 3px black;
+  color: white;
+  height: 120px;
+  background-size: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-size: 60px;
+  font-family: times;
+
+}
+/* flavors separated with padding*/
+main {
+	display: flex;
+  align-content: flex-start;
+	align-items: flex-start;
+	justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: gray;
+
+}
+/* flavor box sizing */
+article {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+	text-align: left;
+  margin: 5px;
+  height: 200px;
+
+}
+/* flavor text */
+.flavors {
+  width: 100%;
+  font-family: serif;
+  font-size: 65px;
+  color: white;
+  text-shadow: 2px 2px black;
+  background-color: white;
+
+}
+/* background image ids */
+#original {
+  background-image: url(../images/original.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#ginger {
+  background-image: url(../images/ginger.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+#lemonLime {
+  background-image: url(../images/lemonlime.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#rasp {
+  background-image: url(../images/rasp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#honeyLemon {
+    background-image: url(../images/honeylemon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#bnb {
+  background-image: url(../images/bnb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#pomegranate {
+  background-image: url(../images/pomegranate.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#hcrisp {
+    background-image: url(../images/hcrisp.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#kiwi {
+    background-image: url(../images/kiwi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+/* truck image sizing, color match benefits image and address */
+#drinkTruck {
+    height: 1000px;
+    background-image: url(../images/homepage_image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #768975;
+    display: flex;
+    align-items:left;
+    justify-content: left;
+    font-size: 50px;
+    font-family: times;
+    color: orange;
+    text-shadow: 2px 2px black;
+
+  }
+/* benefits image box  */
+#cartoonBenefits {
+    height: 800px;
+    background-image: url(../images/about-kombucha-img.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+footer {
+  background-color: green;
+  color: white;
+  height: 120px;
+  background-size: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-size: 60px;
+  font-family: times;
+
+}
+/* list links in footer */
+li{
+  display: inline-block;
+  list-style-type: none;
+  border: none;
+  text-shadow: 2px 2px black;
+  font-size: 60px;
+  font-family: times;
+  padding: 40px;
+
+}
+/* remove underline from li */
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+/* responsive design media queries */
+@media (min-width: 768px) {
+  .flavors {
+    width: calc(50% - 50px);
+  }
+}
+
+@media (min-width: 992px) {
+  .flavors {
+    width: calc(33% - 10px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .flavors {
+    width: calc(25% - 10px);
+  }
+}
