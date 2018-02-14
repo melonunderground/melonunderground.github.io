@@ -136,7 +136,7 @@ article {
 /* benefits image box  */
 #cartoonBenefits {
     height: 800px;
-    background-image: url(../images/about-kombucha-img.jpg);
+    background-image: url(../images/about.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
